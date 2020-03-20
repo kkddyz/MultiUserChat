@@ -1,0 +1,32 @@
+User & Server
+
+1. User --> Server
+
+    * login / logoff
+    * status
+
+2. Server --> User
+
+    * online / offline
+
+3. User --> User
+
+    * direct messages
+    * broadcast messages
+
+
+Commands:
+
+    login <user> <password>
+    logoff
+
+
+
+    msg <user to>||#topic text
+    i.e. "msg CXY hello!"  ||  from GCY
+         "msg from GCY : hello!"
+    #topic
+
+    join #topic
+    leave #topic
+    msg #topic text || 向特定的group发送消息
